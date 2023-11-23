@@ -1,0 +1,117 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.primary-background {
+    background-color:skyblue!important;
+}
+
+.logo{
+    font-weight: 600!important;
+    font-size: 20px;
+}
+
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.header {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to right, rgba(243, 75, 120, 0.9), rgba(64, 251, 245, 0.5)), url("img/bg.jpg");
+    background-size: cover;
+}
+
+.h-100 {
+    height: 100%;
+    width: 100%;
+}
+
+.text-c {
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.text-ch {
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.myicon {
+    font-size: 60px;
+}
+
+.foot {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+}
+
+.service {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+.section{
+    background: linear-gradient(to right , rgba(64, 251, 245, 0.3),rgba(64,251,245,0.3)) ,url("img/contact.jpg");
+}
+
+
+.card{
+    width: 18rem; 
+    margin-top: 50px;
+    
+}
+
+
+.heading{
+    background-image: linear-gradient( 173.1deg,  rgba(226,66,249,0.94) 10.2%, rgba(79,147,249,1) 77.3% );
+    color: white;
+
+}
+  
+/* section of note and vidoe  */
+/* .sec{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+} */
+
+.nav-link{
+    /* transition: all 0.2s; */
+    font-weight: 900;
+    color: rgb(234, 255, 75);
+    position: relative;
+}
+
+.nav-link:hover,.nav-link.active{
+  /* text-decoration: dashed; */
+  /* border-bottom: 2px solid greenyellow; */
+  color: red;
+  
+}
+@media(min-width:991px){
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 2px;
+    /* opacity: 0; */
+    background-color: rgb(49, 3, 3);
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before{
+   width: 100%;
+   visibility: visible;
+}
+}
