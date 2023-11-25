@@ -25,7 +25,7 @@ body {
 .header {
     height: 90vh;
     width: 100%;
-    background: linear-gradient(to right, rgba(243, 75, 120, 0.9), rgba(64, 251, 245, 0.5)), url("img/bg.jpg");
+    background: linear-gradient(to right, rgba(243, 75, 120, 1.6), rgba(64, 251, 245, 0.8)), url("img/bg.jpg");
     background-size: cover;
 }
 
@@ -44,12 +44,12 @@ body {
 
 .text-c {
     color: rgb(0, 0, 0);
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .text-ch {
     color: rgb(0, 0, 0);
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .myicon {
